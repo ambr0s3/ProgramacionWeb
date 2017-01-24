@@ -1,0 +1,50 @@
+body {
+	background-color: #FAF0E6;
+	color: red;
+	font-family: "Courier New"
+}
+
+p:first-of-type {
+  border: 4px dotted;
+}
+
+h1 {
+  margin-left: 20px;
+  font-family: Verdana;
+  color: blue;
+}
+
+p {
+ 
+padding-top: 30px;
+}
+
+a:hover { 
+    color: black;
+    background-color: yellow;
+}
+
+a{
+	color: red;
+	background-color: lightgreen;
+	text-decoration: none;
+}
+
+a:visited {
+  background-color: lightblue;
+}
+
+a:active {
+  background-color: yellow;
+}
+
+ul {
+    list-style-type: square;
+}
+ol {
+
+    list-style-type: upper-roman;
+}
+p.highlight:hover {
+    background-color: lightblue;
+}
